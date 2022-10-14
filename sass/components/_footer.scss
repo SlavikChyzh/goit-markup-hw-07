@@ -1,0 +1,116 @@
+.footer {
+  background-color: #2f303a;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: $footer-color;
+}
+.address__contact {
+  display: flex;
+  flex-direction: column;
+}
+.address__place,
+.address__mail,
+.address__tell {
+  display: flex;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  width: 210px;
+}
+
+.subs {
+  display: block;
+  margin-left: 93px;
+  align-items: baseline;
+}
+.subscribe {
+  display: flex;
+}
+.subscribe__input input {
+  width: 358px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.subscribe__text {
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $footer-color;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+.subscribe__input {
+  display: block;
+  color: $footer-color;
+  padding-left: 16px;
+}
+.subscribe_form_input p {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 23px;
+}
+
+.subscribe_form_input {
+  display: block;
+}
+
+.btn {
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  background: $link-color;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: $footer-color;
+  padding-left: 28px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+
+  &:hover,
+  &:focus {
+    background-color: $btn-hover-color;
+  }
+}
+.btn__icon {
+  width: 24px;
+  height: 24px;
+  fill: $footer-color;
+  margin-left: 10px;
+}
